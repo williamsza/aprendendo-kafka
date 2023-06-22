@@ -1,0 +1,23 @@
+spring:
+  kafka:
+    producer:
+    bootstrap-servers: localhost:9092
+    key-serializer: org.apache.kafka.common.serialization.Sttring.Serializer
+    value-serializer: org.apache.kafka.common.serialization.Sttring.Serializer
+
+topic:
+  bora-praticar: topic_bora_praticar_kafka
+
+
+
+
+
+#    client-id: <ID do cliente>
+#    consumer:
+#      group-id: <ID do grupo do consumidor>
+#      auto-offset-reset: <modo de redefinição automática do offset>
+#      enable-auto-commit: <habilitar confirmação automática>
+#      key-deserializer: <deserializador da chave>
+#      value-deserializer: <deserializador do valor>
+#    producer:
+#      acks: <nível de confirmação das mensagens>
